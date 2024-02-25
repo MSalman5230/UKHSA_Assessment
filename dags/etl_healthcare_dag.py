@@ -71,7 +71,7 @@ def postgres_insert(conn, df, table):
         conn.rollback()
         cursor.close()
         raise error
-        #return 1
+        # return 1
     print("execute_values() done")
     cursor.close()
 
